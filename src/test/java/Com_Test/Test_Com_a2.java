@@ -29,7 +29,6 @@ public class Test_Com_a2 {
 		
 		Test_Com_a1.Handle_Alert(driver).dismiss();
 		
-		
 	}
 
 }

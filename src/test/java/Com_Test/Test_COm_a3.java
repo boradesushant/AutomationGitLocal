@@ -25,13 +25,9 @@ public class Test_COm_a3 {
 		 
 		Double_Click(driver,doubleclick);
 		
-	Alert alt=	driver.switchTo().alert();
-	
-	String text=alt.getText();
-	
-	System.out.println(text);
-	
-		alt.accept();
+		Double_Click(driver,doubleclick);
+		
+		
 		
 		
 		 

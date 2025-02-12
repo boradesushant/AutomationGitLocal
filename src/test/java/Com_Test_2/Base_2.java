@@ -7,8 +7,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base_2 {
 
-	@Test 
-	public class Base {
+	 
+	
 
 		ChromeDriver driver;
 		
@@ -26,11 +26,11 @@ public class Base_2 {
 		
 		public void TearDown() {
 			
-			driver.quit();
+		//	driver.quit();
 			
 			
 		}
-	}
+	
 }
 		
 		

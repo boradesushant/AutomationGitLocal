@@ -27,14 +27,25 @@ public class Test_Com_a5 {
 		
 		act.dragAndDrop(src, Desten).build().perform();
 		
+		WebElement	rty=driver.findElement(By.xpath("(//a[@class='button button-orange'])[6]"));
+		WebElement	qwe=driver.findElement(By.xpath("(//li[@class='placeholder'])[2]"));
 		
-		WebElement ssd=driver.findElement(By.xpath("(//a[@class='button button-orange'])[3]"));
+		act.dragAndDrop(rty, qwe).build().perform();
 		
-		WebElement tth=driver.findElement(By.xpath("(//li[@class='placeholder'])[1]"));
+		WebElement	tty=driver.findElement(By.xpath("(//a[@class='button button-orange'])[4]"));
 		
-		act.dragAndDrop(src, tth).build().perform();
+	WebElement	asd=driver.findElement(By.xpath("(//li[@class='placeholder'])[1]"));
+		
+		act.dragAndDrop(tty, asd).build().perform();
+		
+		WebElement zzz=driver.findElement(By.xpath("(//a[@class='button button-orange'])[2]"));
+		
+		WebElement aqw=driver.findElement(By.xpath("(//li[@class='placeholder'])[1]"));
+		
+		act.dragAndDrop(zzz, aqw).build().perform();
 		
 		
+				
 		
 	}
 

@@ -1,10 +1,23 @@
 package Com_Test_2;
 
-public class TC_004 {
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+import Utility.Library;
 
+public class TC_004 extends Base {
+
+	@Test
+	public void Excell() {
+		
+		WebElement Email=driver.findElement(By.xpath("//input[@name='email']"));
+		
+		Email.sendKeys("testingGMail.com");
+		
+		
+		
 	}
 
 }
